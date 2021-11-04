@@ -1,0 +1,298 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.boxx
+{
+
+    background:linear-gradient(rgb(200,211,218),rgb(235,238,240));
+    width: 55%;
+    height: 55vh;
+    border-bottom-left-radius: 40%;
+    margin-left: 50%;
+   
+
+}
+
+.illus
+{
+
+    position: absolute;
+    left: 0%;
+    top: 15%;
+    /* width: 100vw%; */
+    height: 220px;
+    
+    
+}
+
+.logoo
+{
+
+    position: absolute;
+    left: 3%;
+    top: 2%; 
+}
+
+.fa-bars
+{
+
+margin-left: 110px;
+
+margin-top: 18px;
+
+}
+
+.neww
+{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 60px;
+    font-family: 'Karla', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-weight: bolder;
+
+}
+h4
+{
+    display: inline-block;
+    width: 10px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-weight: lighter;
+    font-family: 'Karla', sans-serif;
+font-family: 'Oswald', sans-serif;
+}
+
+.board
+{
+    display: inline-block;
+    width: 10px;
+    letter-spacing: 2px;
+    margin-left: 90px;
+    font-family: 'Karla', sans-serif;
+    font-weight: lighter;
+font-family: 'Oswald', sans-serif;
+
+}
+
+h2{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Karla', sans-serif;
+font-family: 'Oswald', sans-serif;
+}
+
+p
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Karla', sans-serif;
+/* font-family: 'Oswald', sans-serif; */
+}
+
+.btn
+{
+
+    width: 150px;
+    height: 40px;
+    margin-left: 12px;
+    margin-top: 20px;
+    background-color: rgb(250, 77, 15);
+    color: white;
+    text-align: center;
+    border:1px solid;
+    border-radius: 10px;
+    font-weight: bold;
+    display: inline-block;
+    font-family: 'Karla', sans-serif;
+font-family: 'Oswald', sans-serif;
+letter-spacing: 1px;
+}
+
+.btn2
+{
+    display: inline-block;
+    color: gray;
+    border: none;
+    margin-left: 20px;
+    background-color: white;
+    font-family: 'Karla', sans-serif;
+font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+
+}
+
+header
+{
+    display: none;
+}
+
+
+@media screen and (min-width:1024px) {
+
+    .boxx
+    {
+        margin-left: 30%;
+        height: 40vh;
+        border-bottom-left-radius: 30%;
+    }
+
+    .illus
+    {
+        position: absolute;
+        left: 30%;
+        width: 55vw;
+        height: 35vh;
+    }
+
+    .fa-bars
+    {
+        display: none;
+    }
+    header
+    {
+        color: gray;
+        display: block;
+    }
+   
+
+    .prod
+    {
+        position: absolute;
+        top: 35px;
+        left: 450px;
+        display: inline-block;
+        font-family: 'Karla', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bolder;
+        font-size: 10px;
+        
+    }
+
+    .feat
+    {
+        position: absolute;
+        top: 35px;
+        font-size: 10px;
+        left: 520px;
+        display: inline-block;
+        font-family: 'Karla', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bolder;
+        
+        
+        
+    }
+
+    .pric
+    {
+        position: absolute;
+        top: 35px;
+        left: 590px;
+        display: inline-block;
+        font-family: 'Karla', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bolder;
+        font-size: 10px;
+        
+    }
+
+
+    .log
+    {
+        position: absolute;
+        top: 35px;
+        left: 660px;
+        display: inline-block;
+        font-weight: lighter;
+        font-family: 'Karla', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        /* font-weight: bolder; */
+        font-size: 10px;
+        
+        
+    }
+
+    .neww
+    {
+        position: absolute;
+        top: 120px;
+        width: 45px;
+        border-radius: 8px;
+        font-size: 12px;
+        left: 15px;
+    }
+
+    h4
+{
+    display: inline-block;
+    width: 4px;
+    position: absolute;
+    top: 120px;
+    left: 75px;
+    font-size: 10px;
+ 
+}
+
+.board
+{
+    display: inline-block;
+    width: 4px;
+    position: absolute;
+    top: 120px;
+    left: 75px;
+    font-size: 10px;
+    
+
+}
+
+h2 
+{
+    position: absolute;
+    top: 190px;
+    left: 15px;
+}
+
+
+p 
+{
+    position: absolute;
+    top: 270px;
+    font-size: 12px;
+    left: 15px;
+}
+
+
+.btn
+{
+    position: absolute;
+    top: 320px;
+    width: 140px;
+    height: 30px;
+    font-size: 10px;
+    left: 15px;
+}
+
+.btn2
+{
+    position: absolute;
+    top: 350px;
+    left: 160px;
+    font-size: 10px;
+
+}
+
+
+    
+}
